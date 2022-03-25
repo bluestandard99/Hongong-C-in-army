@@ -10,4 +10,5 @@ int main(void)
   printf("나이는 %d, 키는 %.1lfcm입니다\n", age, height);
 
   return 0;
+
 }

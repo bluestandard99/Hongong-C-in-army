@@ -10,5 +10,4 @@ int main(void)
 	tax = income * tax_rate;
 	printf("세금은:%lf입니다\n", tax);
 	return 0;
-
 }

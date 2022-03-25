@@ -11,4 +11,5 @@ int main(void)
   printf("%s의 학점은 %c입니다.\n", name, grade);
 
   return 0;
+
 }
