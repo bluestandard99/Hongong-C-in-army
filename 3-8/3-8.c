@@ -2,13 +2,15 @@
 
 int main(void)
 {
-	int income;
-	double tax;
-	const double tax_rate = 0.12;
-
-	income = 456;
-	tax = income * tax_rate;
-	printf("세금은:%lf입니다\n", tax);
+	int kor;
+	int eng;
+	int mat;
+	int tot;
+	kor = 70;
+	eng = 80;
+	mat = 90;
+	tot = kor + eng + mat;
+	printf("국어:%d, 영어:%d, 수학:%d\n", kor, eng, mat);
+	printf("총점:%d", tot);
 	return 0;
-
 }
