@@ -14,4 +14,4 @@ int main(void)
   printf("!(a>=30):%d\n", res);
 
   return 0;
-}
+}d
