@@ -1,14 +1,12 @@
 #include<stdio.h>
 int main(void)
 {
-  int i;
-  int sum = 0;
-  for ( i = 1; i <= 10; i++)
-  {
-    sum += i;
-    if (sum > 30)  break;
-  }
-  printf("누적한값:%d\n", sum);
-  printf("마지막으로 더한 값:%d\n", i);
-  return 0;
+  int count = 0;
+	while (1)
+	{
+		printf("happy birth day\n");
+		count++;
+		if (count == 5) break;
+	}
+	return 0;
 }
